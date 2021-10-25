@@ -72,31 +72,33 @@
 							<div class="row">
 								<div class="input-field col s12">
 									<i class="material-icons prefix">account_circle</i>
-							         <input type="text" id="rg_username" required placeholder="Ingresa tú nombre" class="validate" autocomplete="off">
+							         <input type="text" id="rg_username"  placeholder="Ingresa tú nombre" class="validate"  autocomplete="off">
 							         
 								</div><!-- Enf col -->
 
 								<div class="input-field col s12">
 									<i class="material-icons prefix">email</i>
-							         <input type="email" id="rg_email" required placeholder="Ingresa tú email:Persona@gmail.com" class="validate" autocomplete="off">
+							         <input type="email" id="rg_email"  placeholder="Ingresa tú email:Persona@gmail.com" class="validate"  autocomplete="off">
 							        
 								</div><!-- Enf col -->
 
 								<div class="input-field col s12">
 									<i class="material-icons prefix">lock_outline</i>
-							         <input type="password" id="rg_pass1" required placeholder="Ingresa tú contraseña"class="validate" autocomplete="off">
+							         <input type="password" id="rg_pass1" placeholder="Ingresa tú contraseña" class="validate" autocomplete="off">
 							
 								</div><!-- Enf col -->
 
 								<div class="input-field col s12">
 									<i class="material-icons prefix">login</i>
-							         <input type="password" id="rg_pass2" required placeholder="Confirma tú contraseña" class="validate" autocomplete="off">
+							         <input type="password" id="rg_pass2" placeholder="Confirma tú contraseña" class="validate" autocomplete="off">
 							         
 								</div><!-- Enf col -->
 
 								<div class="col s12">
 									<div class="center">
-										<input type="submit" class="waves-effect waves-light btn blue" value="Registrarme">
+										<button type="submit" class="waves-effect waves-light btn blue" onclick="registro();">
+											Registrarme
+                                         </button>
 										
 									</div>
 								</div>
@@ -119,5 +121,6 @@
 
 	<div class="scrolltop scrolltop-dark"></div>
 	<script src="js/app.js"></script>
+	<script src="js/ajax.js"></script>
 </body>
 </html>
